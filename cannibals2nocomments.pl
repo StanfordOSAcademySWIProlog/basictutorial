@@ -36,6 +36,7 @@ show_unique_solutions :-
 	format('======== Solution ===========~n'),
 	show_solution(Config, AMove),
 	fail.
+show_unique_solutions.
 
 show_shortest_solution :-
 	start(Config),
